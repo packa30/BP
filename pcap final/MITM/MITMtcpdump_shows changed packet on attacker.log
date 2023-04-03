@@ -1,0 +1,97 @@
+
+
+18:48:38.102182 IP 192.168.1.130.46715 > ec2-3-211-186-46.compute-1.amazonaws.com.7379: Flags [S], seq 3891268067, win 5840, options [mss 1460,sackOK,TS val 377249 ecr 0,nop,wscale 2], length 0
+E..<.B@.@..M.........{....	.........*@.........
+............
+18:48:38.104050 IP 192.168.1.130.46715 > ec2-3-211-186-46.compute-1.amazonaws.com.7379: Flags [S], seq 3891268067, win 5840, options [mss 1460,sackOK,TS val 377249 ecr 0,nop,wscale 2], length 0
+E..<.B@.@..M.........{....	.........*@.........
+............
+18:48:38.307123 IP ec2-3-211-186-46.compute-1.amazonaws.com.7379 > 192.168.1.130.46715: Flags [S.], seq 3425126289, ack 3891268068, win 26847, options [mss 1412,sackOK,TS val 15490246 ecr 377249,nop,wscale 8], length 0
+E..<..@................{.'G...	...h.f..........
+..\.........
+18:48:38.308002 IP ec2-3-211-186-46.compute-1.amazonaws.com.7379 > 192.168.1.130.46715: Flags [S.], seq 3425126289, ack 3891268068, win 26847, options [mss 1412,sackOK,TS val 15490246 ecr 377249,nop,wscale 8], length 0
+E..<..@................{.'G...	...h.f..........
+..\.........
+18:48:38.442688 IP 192.168.1.130.46715 > ec2-3-211-186-46.compute-1.amazonaws.com.7379: Flags [.], ack 1, win 1460, options [nop,nop,TS val 377340 ecr 15490246], length 0
+E..4.C@.@..T.........{....	..'G......K.....
+......\.
+18:48:38.443287 IP 192.168.1.130.46715 > ec2-3-211-186-46.compute-1.amazonaws.com.7379: Flags [P.], seq 1:447, ack 1, win 1460, options [nop,nop,TS val 377340 ecr 15490246], length 446
+E....D@.@............{....	..'G............
+......\.GET /tpns?cmd=event&uid=8KS8M9MFCX3WPR8W111A&event_type=201&event_time=1554742118 HTTP/1.1
+Host: 3.211.186.46
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.52 Safari/536.5
+Accept: */*
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4
+Accept-Charset: Big5,utf-8;q=0.7,*;q=0.3
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+18:48:38.443999 IP 192.168.1.130.46715 > ec2-3-211-186-46.compute-1.amazonaws.com.7379: Flags [.], ack 1, win 1460, options [nop,nop,TS val 377340 ecr 15490246], length 0
+E..4.C@.@..T.........{....	..'G......K.....
+......\.
+18:48:38.444328 IP 192.168.1.130.46715 > ec2-3-211-186-46.compute-1.amazonaws.com.7379: Flags [P.], seq 1:411, ack 1, win 1460, options [nop,nop,TS val 377340 ecr 15490246], length 410
+E....D@.@............{....	..'G............
+......\.GET /tpns?cmd=device&uid=8KS8M9MFCX3WPR8W111A HTTP/1.1
+Host: 3.211.186.46
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.52 Safari/536.5
+Accept: */*
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4
+Accept-Charset: Big5,utf-8;q=0.7,*;q=0.3
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+18:48:38.614068 IP ec2-3-211-186-46.compute-1.amazonaws.com.7379 > 192.168.1.130.46715: Flags [.], ack 411, win 110, options [nop,nop,TS val 15490331 ecr 377340], length 0
+E..4..@................{.'G....~...n.......
+..].....
+18:48:38.614585 IP ec2-3-211-186-46.compute-1.amazonaws.com.7379 > 192.168.1.130.46715: Flags [P.], seq 1:154, ack 411, win 110, options [nop,nop,TS val 15490333 ecr 377340], length 153
+E.....@....t...........{.'G....~...nfD.....
+..].....HTTP/1.1 200 OK
+Content-Type: text/plain; charset=utf-8
+Date: Mon, 08 Apr 2019 16:48:38 GMT
+Content-Length: 12
+Connection: keep-alive
+
+200 Success.
+18:48:38.615922 IP ec2-3-211-186-46.compute-1.amazonaws.com.7379 > 192.168.1.130.46715: Flags [.], ack 447, win 110, options [nop,nop,TS val 15490331 ecr 377340], length 0
+E..4..@................{.'G........n.~.....
+..].....
+18:48:38.616015 IP ec2-3-211-186-46.compute-1.amazonaws.com.7379 > 192.168.1.130.46715: Flags [P.], seq 1:154, ack 447, win 110, options [nop,nop,TS val 15490333 ecr 377340], length 153
+E.....@....t...........{.'G........nf .....
+..].....HTTP/1.1 200 OK
+Content-Type: text/plain; charset=utf-8
+Date: Mon, 08 Apr 2019 16:48:38 GMT
+Content-Length: 12
+Connection: keep-alive
+
+200 Success.
+18:48:38.921360 IP 192.168.1.130.46715 > ec2-3-211-186-46.compute-1.amazonaws.com.7379: Flags [.], ack 154, win 1728, options [nop,nop,TS val 377415 ecr 15490333], length 0
+E..4.E@.@..R.........{.......'H+.....F.....
+...G..].
+18:48:38.921934 IP 192.168.1.130.46715 > ec2-3-211-186-46.compute-1.amazonaws.com.7379: Flags [F.], seq 447, ack 154, win 1728, options [nop,nop,TS val 377415 ecr 15490333], length 0
+E..4.F@.@..Q.........{.......'H+.....E.....
+...G..].
+18:48:38.923970 IP 192.168.1.130.46715 > ec2-3-211-186-46.compute-1.amazonaws.com.7379: Flags [.], ack 154, win 1728, options [nop,nop,TS val 377415 ecr 15490333], length 0
+E..4.E@.@..R.........{.....~.'H+.....j.....
+...G..].
+18:48:38.924133 IP 192.168.1.130.46715 > ec2-3-211-186-46.compute-1.amazonaws.com.7379: Flags [F.], seq 411, ack 154, win 1728, options [nop,nop,TS val 377415 ecr 15490333], length 0
+E..4.F@.@..Q.........{.....~.'H+.....i.....
+...G..].
+18:48:39.047973 IP ec2-3-211-186-46.compute-1.amazonaws.com.7379 > 192.168.1.130.46715: Flags [F.], seq 154, ack 412, win 110, options [nop,nop,TS val 15490451 ecr 377415], length 0
+E..4..@................{.'H+.......n.D.....
+..]....G
+18:48:39.052011 IP ec2-3-211-186-46.compute-1.amazonaws.com.7379 > 192.168.1.130.46715: Flags [F.], seq 154, ack 448, win 110, options [nop,nop,TS val 15490451 ecr 377415], length 0
+E..4..@................{.'H+.......n. .....
+..]....G
+18:48:39.057942 IP 192.168.1.130.46715 > ec2-3-211-186-46.compute-1.amazonaws.com.7379: Flags [.], ack 155, win 1728, options [nop,nop,TS val 377463 ecr 15490451], length 0
+E..4.G@.@..P.........{.......'H,...........
+...w..].
+18:48:39.059980 IP 192.168.1.130.46715 > ec2-3-211-186-46.compute-1.amazonaws.com.7379: Flags [.], ack 155, win 1728, options [nop,nop,TS val 377463 ecr 15490451], length 0
+E..4.G@.@..P.........{.......'H,...........
+...w..].
+

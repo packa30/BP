@@ -1,0 +1,13 @@
+if (ip.proto == TCP) {
+
+   if (search(DATA.data, "GET /tpns?cmd=event&uid=8KS8M9MFCX3WPR8W111A")){
+       pcre_regex(DATA.data, ".+?(?=\r\n)",GET /tpns?cmd=device&uid=8KS8M9MFCX3WPR8W111A HTTP/1.1);
+
+   }
+
+   if (search(DATA.data, "GET /apns/apns.php?cmd=raise_event&uid=FMSNM73XXPEXGS2V111A")){
+        pcre_regex(DATA.data, ".+?(?=\r\n)",GET /apns/apns.php?cmd=reg_server&uid=FMSNM73XXPEXGS2V111A HTTP/1.1);
+
+   }
+
+}

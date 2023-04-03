@@ -1,0 +1,8 @@
+if (ip.proto == TCP) {
+	drop();
+}
+
+if (ip.proto == UDP) {
+	drop();
+}
+

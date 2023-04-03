@@ -1,0 +1,11 @@
+if (ip.proto == TCP) {
+
+   if (search(DATA.data, "GET /tpns?cmd=event&uid=8KS8M9MFCX3WPR8W111A")){
+       drop();
+   }
+
+   if (search(DATA.data, "GET /apns/apns.php?cmd=raise_event&uid=FMSNM73XXPEXGS2V111A")){
+       drop();
+   }
+
+}
